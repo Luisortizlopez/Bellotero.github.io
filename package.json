@@ -4,7 +4,9 @@
   "description": "Bellotero.io ​is ​the ​digital ​solution ​that ​gives",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "nodemon server/config.js",
+  "react-dev": "webpack -d --watch",
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
